@@ -3,7 +3,7 @@
 ## Overview
 The goal of this project was to act as a Human Resources Analyst to determine who will be retiring in the next few years and how many positions (and titles) will Pewlett Hackard need to fill. Bobby has asked us for our expertise in using SQL. All the information has been compiled into 6 CSVs because the company has been fully Excel and VBA based when it came to their HR. With our help we will be future-proofing PH by generating a list of all employees eligible for the retirement package and a list of how many job titles are going to be open after that generation of employees retires. 
 
-## Results
+## Resultsd
 - After creating the unique_titles table by joining the employees and titles tables, filtering them by date of birth and date hired, removing duplicates, and ordering the data points by date hired there are **90,398 employees retiring** as per the above criterion. 
 
 To download: [unique_titles.csv](https://github.com/nicoserrano/Pewlett-Hackard-Analysis/files/6736136/unique_titles.csv)
